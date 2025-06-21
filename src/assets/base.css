@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+:root {
+  /*Light moode Colors*/
+  --background-color-light: #f5f5f5;
+  --text-color-light: #333333;
+  --secondary-text: #777777;
+  --hover-accent: #0d5bba;
+
+  /*Dark moode Colors*/
+  --background-color-dark: #212121;
+  --text-color-dark: #e0e0e0;
+  --secondary-text: #a0a0a0;
+  --primary-accent-light: rgb(32, 50, 66);
+  --hover-accent-dark: #5e97f6;
+}
+
+.light {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+
+.dark {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
